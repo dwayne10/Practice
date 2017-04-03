@@ -24,7 +24,6 @@ def find_three_closest(sorted_arrays):
                 return min_three
 
         # move the pointer thats at the min element forward
-
         if smallest == a1[i]:
             i += 1
         elif smallest == a2[j]:
